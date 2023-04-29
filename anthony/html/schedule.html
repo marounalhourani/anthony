@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule Table</title>
+  <link rel="stylesheet" href="/style/home.css">
+  <style>
+    		body {
+			font-family: Arial, sans-serif;
+			background-color: #f1f1f1;
+			margin: 0;
+			padding: 0;
+		}
+		table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 767px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  th,
+  td {
+    display: inline-block;
+    width: 120px;
+  }
+}
+
+		table {
+      margin: auto;
+      margin-top: 10%;
+			border-collapse: collapse;
+			width: 90%;
+			max-width: 900px;
+			background-color: white;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+		}
+		
+		th, td {
+			padding: 12px 15px;
+			text-align: center;
+			border: 1px solid #ddd;
+			font-size: 16px;
+			font-weight: normal;
+			color: #333;
+			transition: background-color 0.3s ease;
+		}
+		
+		th {
+			background-color: #4CAF50;
+			color: white;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		
+		td {
+			background-color: #f1f1f1;
+		}
+		
+		td:hover {
+			background-color: #ddd;
+		}
+		
+		@media screen and (max-width: 768px) {
+			table {
+				width: 100%;
+			}
+			th, td {
+				padding: 8px;
+			}
+		}
+		
+		@keyframes fadein {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+		
+		.fade-in {
+			animation: fadein 1s ease;
+		}
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      Anthony Achkar
+    </div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="mycv.html">My CV</a></li>
+      <li><a href="arabic.html">Arabic Paper</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+
+<!-- table here -->
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="fade-in">
+      <td>11:00 am - 12:15 pm</td>
+      <td>Graph Theory</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Graph Theory</td>
+    </tr>
+    <tr class="fade-in">
+      <td>12:30 pm - 1:45 pm</td>
+      <td>Web Development</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Web Development</td>
+    </tr>
+    <tr class="fade-in">
+      <td>3:30 pm - 4:45 pm</td>
+      <td>-</td>
+      <td>Computer Networks</td>
+      <td>-</td>
+      <td>Computer Networks</td>
+      <td>-</td>
+    </tr>
+    <tr class="fade-in">
+      <td>5:00 pm - 6:15 pm</td>
+      <td>-</td>
+      <td>Theory of Programming Language</td>
+      <td>-</td>
+      <td>Theory of Programming Language</td>
+      <td>-</td>
+    </tr>
+    <tr class="fade-in">
+      <td>8:00 pm - 9:00 pm</td>
+      <td>-</td>
+      <td>Project Management</td>
+      <td>-</td>
+      <td>Project Management</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+    <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="https://www.twitter.com">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+  </ul>
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="home.html">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="research.html">Research</a></li>
+    <li class="menu__item"><a class="menu__link" href="mycv.html">My CV</a></li>
+    <li class="menu__item"><a class="menu__link" href="arabic.html">Arabic Paper</a></li>
+    <li class="menu__item"><a class="menu__link" href="schedule.html">Shedule</a></li>
+    <li class="menu__item"><a class="menu__link" href="quiz.html">Quiz</a></li>
+    <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+
+
+  </ul>
+  <p>&copy;2023 Anthony Achkar | All Rights Reserved</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<script>
+  const rows = document.querySelectorAll("tr.fade-in");
+
+  rows.forEach((row, index) => {
+    row.style.animationDelay = `${index * 0.1}s`;
+  });
+</script>
+
+
+
+
+  <script src="/js/index.js"></script>
+  <script src="/js/weekly.js"></script>
+</body>
+</html>

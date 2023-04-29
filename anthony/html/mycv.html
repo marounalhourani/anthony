@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="/style/home.css">
+    <style>
+      * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+      }
+@font-face {
+  font-family: Font3;
+  src: url(/fonts/InstrumentSerif-Regular.ttf);
+  }
+
+  .navbar li, .navbar a {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+      .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+          color: white;
+          font-family: Font3;
+          font-size:larger;
+      }
+
+      header {
+          text-align: center;
+          margin-bottom: 40px;
+      }
+
+      h1 {
+          font-size: 36px;
+          margin-bottom: 10px;
+      }
+
+      h2 {
+          font-size: 24px;
+          margin-bottom: 10px;
+      }
+
+      p {
+          margin-bottom: 20px;
+      }
+
+      ul {
+          list-style: none;
+          margin-bottom: 20px;
+      }
+
+
+      table {
+          border-collapse: collapse;
+          width: 100%;
+          margin-bottom: 20px;
+      }
+
+      th, td {
+          text-align: left;
+          padding: 8px;
+      }
+
+      th {
+          background-color: #007bff;
+          color: white;
+      }
+
+      .contact {
+          margin-bottom: 40px;
+      }
+
+      .skills, .language, .hobbies, .summary, .experience, .education {
+          margin-bottom: 40px;
+      }
+
+      @media screen and (min-width: 768px) {
+          header {
+              margin-bottom: 60px;
+          }
+
+          h1 {
+              font-size: 48px;
+              margin-bottom: 20px;
+          }
+
+          h2 {
+              font-size: 36px;
+              margin-bottom: 20px;
+          }
+
+          p {
+              font-size: 18px;
+              margin-bottom: 30px;
+          }
+
+          ul {
+              margin-bottom: 30px;
+          }
+
+          li::before {
+              font-size: 20px;
+          }
+
+          table {
+              margin-bottom: 30px;
+          }
+      }
+  </style>
+</head>
+<body>
+<div class="navbar">
+  <div class="logo">
+    Anthony Achkar
+  </div>
+  <ul class="nav-links">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="mycv.html">My CV</a></li>
+    <li><a href="arabic.html">Arabic Paper</a></li>
+    <li><a href="schedule.html">Schedule</a></li>
+    <li><a href="quiz.html">Quiz</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+</div>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-md-12">
+              <div class="contact">
+                  <h2>Contact</h2>
+                  <p><b>Email id: </b><a href="mailto:example@email.com" style="text-decoration: underline; color: white;">anthony.y.achkar@outlook.com</a><p>
+
+                  <p><b>Mobile no:</b> 76536934</p>
+              </div>
+              <div class="skills">
+                  <h2>Skills</h2>
+                  <ul>
+                      <li><b>Programming Languages:</b> SQL, Java, C++, PL/SQL, MatLab</li>
+                      <li><b>Frontend:</b> HTML5, CSS3</li>
+                      <li><b>Backend:</b> Node.js</li>
+                      <li><b>Bartender</b></li>
+                      <li><b>Football Coaching</b></li>
+                  </ul>
+              </div>
+              <div class="language">
+                  <h2>Language</h2>
+                  <ul>
+                      <li>English</li>
+                      <li>French</li>
+                      <li>Arabic</li>
+                  </ul>
+              </div>
+              <div class="hobbies">
+                  <h2>Hobbies</h2>
+                  <ul>
+                      <li>Futsal Player (division 1)</li>
+                      <li>Swimming</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+              <div class="summary">
+                  <h2>Summary</h2>
+                  <p>To secure a challenging position in a reputable organization to expand my learning knowledge and skill</p>
+              </div>
+              <div class="experience">
+                  <h2>Experience</h2>
+                  <h3>Data-analyst coditech</h3>
+                  <p>January 2022 to Present</p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <h3>Scout Du Liban</h3>
+                  <p>August 2010 to Present</p>
+                  <ul>
+                      <li>Chef Scout Groupe Saint Antoine Beit Chabab</li>
+                  </ul>
+              </div>
+              <div class="education">
+                  <h2>Education</h2>
+                  <table>
+                      <tr>
+                          <th>University/College</th>
+                          <th>Passing Year</th>
+                          <th>Percentage/GPA</th>
+                      </tr>
+                      <tr>
+                          <td>Usek</td>
+                          <td>2023</td>
+                          <td>3.3</td>
+                      </tr>
+                      <tr>
+                          <td>Lycee Beit Chabab</td>
+                          <td>2021</td>
+                          <td>84%</td>
+                      </tr>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.twitter.com">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="home.html">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="research.html">Research</a></li>
+      <li class="menu__item"><a class="menu__link" href="mycv.html">My CV</a></li>
+      <li class="menu__item"><a class="menu__link" href="arabic.html">Arabic Paper</a></li>
+      <li class="menu__item"><a class="menu__link" href="schedule.html">Shedule</a></li>
+      <li class="menu__item"><a class="menu__link" href="quiz.html">Quiz</a></li>
+      <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+
+
+    </ul>
+    <p>&copy;2023 Anthony Achkar | All Rights Reserved</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="/js/index.js"></script>
+
+</body>
+</html>
